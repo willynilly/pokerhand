@@ -17,6 +17,10 @@
      "type":"git",
      "url":"https://github.com/willynilly/pokerhand.git"
   },
+  "bugs": {
+     "url" : "https://github.com/willynilly/pokerhand/issues",
+     "email" : "will@quietsimple.com" 
+  },
   "author": "Will Riley <will@quietsimple.com> (http://willriley.net/)",
   "license": "MIT",
   "devDependencies": {
