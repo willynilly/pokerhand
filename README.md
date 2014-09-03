@@ -3,13 +3,21 @@ pokerhand
 
 A library to classify poker hands.
 
-To install:
+For poker functions, only supports 5 card hands.
+Card suits: 'h','c','s','d'
+Card ranks: '2','3','4','5','6','7','8','9','T','J','Q','K','A'
 
+###To install:
+
+```
 npm install pokerhand --save
+```
 
-To use:
+###To use:
 
+```javascript
 var pokerhand = require('pokerhand');
+
 var Deck = pokerhand.Deck;
 var Poker = pokerhand.Poker;
 var Card = pokerhand.Card;
@@ -35,17 +43,16 @@ if (p.isStraightFlush(h)) {
   console.log("straight flush");
 }
 
-console.log(p.getHighestRankForHand(h)); // outputs 'straight flush'
+// outputs 'straight flush'
+console.log(p.getHighestRankForHand(h)); 
+```
 
-To run tests:
+###To run tests:
+```
 grunt
+```
 
-To run poker app test:
+###To run poker app test:
+```
 grunt pokerhand
-
-
-Notes:
-For poker functions, only supports 5 card hands.
-Card suits: 'h','c','s','d'
-Card ranks: '2','3','4','5','6','7','8','9','T','J','Q','K','A'
-
+```
