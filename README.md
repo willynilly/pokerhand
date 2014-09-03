@@ -27,7 +27,7 @@ var Hand = pokerhand.Hand;
 
 // create deck and poker object
 var d = new Deck();
-var p = new Poker(deck);
+var p = new Poker(d);
 
 // must have five cards
 var cards = [
