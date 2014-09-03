@@ -4,7 +4,9 @@ pokerhand
 A library to classify poker hands.
 
 For poker functions, only supports 5 card hands.
+
 Card suits: 'h','c','s','d'
+
 Card ranks: '2','3','4','5','6','7','8','9','T','J','Q','K','A'
 
 ###To install:
