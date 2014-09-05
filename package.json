@@ -1,6 +1,6 @@
 {
   "name": "pokerhand",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A library to classify poker hands.",
   "main": "lib/pokerhand.js",
   "scripts": {
